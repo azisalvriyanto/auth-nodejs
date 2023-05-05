@@ -11,6 +11,11 @@ const PORT = process.env.PORT
 app.use(bodyParser.json())
 app.use(cors())
 
+// Routes
+const authRoute = require('./routes/auth')
+
+app.use('/auth', authRoute)
+
 app.get('/', (req, res) => {
     res.json({
         status: true,
