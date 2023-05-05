@@ -1,0 +1,15 @@
+{
+  "name": "auth-nodejs",
+  "version": "1.0.0",
+  "description": "Restful API with JWT",
+  "main": "app.js",
+  "keywords": [
+    "Restful",
+    "API",
+    "Node.js",
+    "JWT"
+  ],
+  "repository": "https://github.com/azisalvriyanto/auth-nodejs",
+  "author": "Alvriyanto Azis",
+  "license": "MIT"
+}
