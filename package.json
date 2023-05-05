@@ -11,5 +11,8 @@
   ],
   "repository": "https://github.com/azisalvriyanto/auth-nodejs",
   "author": "Alvriyanto Azis",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
