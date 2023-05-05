@@ -13,8 +13,10 @@ app.use(cors())
 
 // Routes
 const authRoute = require('./routes/auth')
+const userRoute = require('./routes/user')
 
 app.use('/auth', authRoute)
+app.use('/user', userRoute)
 
 app.get('/', (req, res) => {
     res.json({

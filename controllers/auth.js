@@ -27,7 +27,7 @@ exports.login = async (req, res) => {
     }
 
     const token = jwt.sign({
-        _id: user._id
+        id: user.id
     }, process.env.JWT_SECRET_KEY)
 
     res.header('Authorization', 'Bearer ' + token).json({
@@ -43,7 +43,9 @@ exports.login = async (req, res) => {
 exports.register = async (req, res) => {
     // Username exist validation
     const usernameExist = await User.findOne({
-        username: req.body.username
+        where: {
+            username: req.body.username
+        }
     })
     if (usernameExist) {
         res.status(400).json({
