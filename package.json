@@ -17,6 +17,7 @@
   "author": "Alvriyanto Azis",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
     "nodemon": "^2.0.22"
   }
