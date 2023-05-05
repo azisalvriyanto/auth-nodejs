@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "azisalvriyanto",
+    "password": "azisalvriyanto",
+    "database": "auth_nodejs_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "azisalvriyanto",
+    "password": "azisalvriyanto",
+    "database": "auth_nodejs_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "azisalvriyanto",
+    "password": "azisalvriyanto",
+    "database": "auth_nodejs_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
